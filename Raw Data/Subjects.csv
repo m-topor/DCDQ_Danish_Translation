@@ -1,0 +1,54 @@
+ID,Date,Time,Researchers,School,Included,Group,EEG,EEG_Trials,PL,PL_Trials,Read,Demo,Flam,Peg,DCDQ_dansk,Data_Comments
+Pilot_adult1,16-11-2022,10:45,"MT, RAH",,0,MV,1,,1,,0,1,1,1,0,The data are not reliable as we tried to see how the experiment can not work too well 
+Pilot_adutlt2,17-11-2022,13:10,"MT, RAH, AHH",,0,MV,1,,1,,1,1,1,1,0,"Participant reported feeling their head vibrate as they were making the ""m"" and ""n"" sounds"
+Pilot-01,19-11-2022,10:00,MT,,0,,0,,0,,0,1,1,1,1,"Participant too young to read, took off the EEG cap and did not want to do the EEG"
+Pilot-02,19-11-2022,,MT,,0,MV,1,,1,,0,1,1,1,1,"EEG signal dropped near the end in block 5, Reading not done because participant was too young (in kindergarden)"
+Sub-01,21-11-2022,08:10,"MT, AHH",Hannemanns Allé,1,MV,1,49,1,60,1,1,1,1,1,"Block 3 in PL to be removed from all analyses because the accuracy of trails do not line up, 60 trials availavle for behavioural analyses, it was observed that the participant released the spacebar too quickly on most occasions, in the data collection notes, there was a comment that EEG signal dropped and the participant should be excluded from EEG, but raw data inspection does not suggest any issues with the data"
+Sub-02,21-11-2022,10:05,"MT, AHH",Hannemanns Allé,1,MV,1,55,1,72,1,1,1,1,1,"Block 1 in PL to be removed from analyses because the account of correct/incorrect responses is not accurate, 72 correct and reliable trials available for EEG analyses Participant talked during the recording"
+Sub-03,22-11-2022,08:10,"MT, AHH",Hannemanns Allé,0,M,0,,0,,1,1,1,1,1,"PsychoPy stopped working when tried to run the PL task so this was not done, EEG not recorded, In the Flamingo test, the child did not make ""task errors"" by putting their leg down but buy supporting themselves by the table when losing balance"
+Sub-04,22-11-2022,10:30,"MT, AHH",Hannemanns Allé,1,M,1,47,1,49,1,1,1,1,1,"Block 2 in PsychoPy to be removed because the account of correct and incorrect responses is not reliable, only 49 correct & reliable trials available for analysis "
+Sub-05,23-11-2022,08:15,"MT, RAH",Hannemanns Allé,0,V,0,,1,90,1,1,1,1,1,"EEG was not saved, RTs are not reliable in this recording because of a strange pattern of responses where the child consistently forgot to release the spacebar, and even though 90 of the trials were marked as sufficiently reliable, on retrospect, this participant should not be included in analyses."
+Sub-06,23-11-2022,,"MT, RAH",Hannemanns Allé,0,V,0,,1,96,1,1,1,1,1,EEG recording did not register because the references did not work
+Sub-07,23-11-2022,12:40,"MT, RAH",Hannemanns Allé,1,V,1,90,1,94,1,1,1,1,1,"Reading task - the response was recorded wrong, the child did not read any of the words correctly"
+Sub-08,30-11-2022,10:05,"MT, AHH",Hannemanns Allé,0,M,1,,1,44,1,1,1,1,0,"EEG recording was not complete - started from block 3 trial 17 - not enough trials for EEG, DCDQ completed in English"
+Sub-09,28-11-2022,08:15,"MT, RAH",Hannemanns Allé,1,MV,1,49,1,56,1,1,1,1,0,EEG Recording disconnected at Block 2 - started a new file from Block 3
+Sub-10,24-11-2022,08:10,"MT, RAH",Hannemanns Allé,0,MV,0,,1,110,1,1,1,1,1,EEG recording was not possible because the reference electrodes did not connect
+Sub-11,25-11-2022,,"MT, RAH",Hannemanns Allé,1,M,1,95,1,103,1,1,1,1,0,EEG recording very noisy because the participant had thick braided hair
+Sub-12,24-11-2022,10:25,"MT, RAH",Hannemanns Allé,1,MV,1,64,1,70,1,1,1,1,1,
+Sub-13,25-11-2022,10:25,"MT, RAH",Hannemanns Allé,1,M,1,84,1,94,1,1,1,1,1,"Reading task - participant asked for hints, which could have helped with performance"
+Sub-14,30-11-2022,08:15,"MT, AHH",Hannemanns Allé,0,M,0,,1,90,1,1,1,1,1,EEG recording not takeb because the child did not want to have the EEG cap on
+Sub-15,28-11-2022,10:10,"MT, RAH",Hannemanns Allé,1,MV,1,109,1,114,1,1,1,1,1,
+Sub-16,01-12-2022,08:20,"MT, AHH",Hannemanns Allé,1,MV,1,59,1,78,1,1,1,1,0,DCDQ completed in English
+Sub-17,29-11-2022,12:36,"MT, RAH",Hannemanns Allé,1,V,1,70,1,82,1,1,1,1,0,"The child was tired and lost attention near the end of the perceptual learning task, DCD given to the parent was not complete so it's not usable"
+Sub-18,01-12-2022,10:10,"MT, AHH",Hannemanns Allé,0,V,1,,1,29,1,1,1,1,1,"The child could not complete the task correctly, has to be excluded due to too few correct trials for EEG analyses, during the testing, it was clear that the child had a problem with disstinguishing the letters and needed extra practice in between the blocks, could not make the sound ""n"" "
+Sub-19,29-11-2022,10:30,"MT, RAH",Hannemanns Allé,1,V,1,89,1,101,1,1,1,1,0,"Mum came for the testing and stayed for half of the duration, DCD questionnaire not completed"
+Sub-20,29-11-2022,08:25,"MT, RAH",Hannemanns Allé,0,V,1,,1,10,1,1,1,1,1,"The child had a problem with coordinating movements, was not able to coordinate lifting the spacebar and making the sound just after, therefore timing of responses is bad and the data is not suitable for EEG analyses"
+Sub-21,02-12-2022,,"MT, AHH",Hannemanns Allé,1,V,1,72,1,86,1,1,1,1,0,DCDQ not completed because the parents were not given the full form by the teachers (there were pages missing)
+Sub-22,02-12-2022,08:20,"MT, AHH",Hannemanns Allé,1,V,1,58,1,65,1,1,1,1,0,"For EEG, remove the second block because the reference electrode lost connection and inaccurate timing of responses was recorded. From the EEG recording, it seems that half of the recording was compromised by signal loss so it could be possible that this participant cannot be included once preprocessing is done becuase there won't be enough data. DCDQ not completed because the parents were not given the full form by the teachers (there were pages missing)"
+Sub-23,01-12-2022,12:30,"MT, AHH",Hannemanns Allé,1,M,1,95,1,100,1,1,1,1,0,DCDQ not completed because the parents were not given the full form by the teachers (there were pages missing)
+Sub-24,02-12-2022,12:36,"MT, AHH",Hannemanns Allé,1,M,1,52,1,71,1,1,1,1,0,EEG - remove second block because accuracy not marked precisely. DCDQ not completed because the parents were not given the full form by the teachers (there were pages missing)
+Sub-25,17-04-2023,10:07,"MT, JW",Lundehusskolen,1,MV,1,86,1,100,1,1,1,1,1,"The child made movements quicker than sound, no recording for humming lettes ""m"" and ""n"" were taken"
+Sub-26,18-04-2023,08:32,"MT, RAH",Lundehusskolen,0,M,0,,0,,1,1,1,1,1,"The child got a little upset after the second task but wanted to continue, the child then did not want to continue with the last task, nor with the EEG"
+Sub-27,18-04-2023,09:00,"MT, RAH",Lundehusskolen,1,M,1,80,1,83,1,1,1,1,1,"The EEG recording was interrupted and had to be restarted, the first block cannot be analysed and only trials from the last four blocks should be used"
+Sub-28,18-04-2023,10:17,"MT, RAH",Lundehusskolen,1,M,1,82,1,90,1,1,1,1,1,
+Sub-29,19-04-2023,08:40,"MT, JW",Lundehusskolen,1,MV,1,72,1,88,1,1,1,1,0,DCDQ incomplete
+Sub-30,25-04-2023,12:10,"MT, JW",Lundehusskolen,1,V,1,97,1,101,1,1,1,1,1,
+Sub-31,19-04-2023,,"MT, JW",Lundehusskolen,1,MV,1,80,1,83,1,1,1,1,1,
+Sub-32,25-04-2023,,"MT, JW",Lundehusskolen,1,V,1,78,1,88,1,1,1,1,1,There were 2 electrodes at offset value of 30
+Sub-33,18-04-2023,12:09,"MT, RAH",Lundehusskolen,1,M,1,94,1,98,1,1,1,1,1,
+Sub-34,19-04-2023,,"MT, JW",Lundehusskolen,1,MV,1,100,1,107,1,1,1,1,1,
+Sub-35,19-04-2023,13:15,"MT, JW",,1,MV,1,82,1,87,1,1,1,1,1,"The child does not attend the school, but is related to one of the experimenters and parents volunteered that the child can take part"
+Sub-36,20-04-2023,08:40,"MT, RAH",Lundehusskolen,1,M,1,88,1,96,1,1,1,1,1,"The child had a plaster on the right finger, could have impacted performance on the pegboard but seemed ok in general"
+Sub-37,20-04-2023,,"MT, RAH",Lundehusskolen,1,M,1,84,1,91,1,1,1,1,1,
+Sub-38,20-04-2023,12:05,"MT, RAH",Lundehusskolen,1,V,1,99,1,104,1,1,1,1,1,
+Sub-39,25-04-2023,08:32,"MT, JW",Lundehusskolen,1,V,1,83,1,86,1,1,1,1,1,"The child had braided hair so there were a few electrodes with high noise - PO2, P2, P4"
+Sub-40,03-05-2023,08:30,"MT, AHH",Lundehusskolen,1,M,1,85,1,90,1,1,1,1,1,"Speech problem noticed during testing but not reported by the parent, during the reading task the child did not read any of the words correctly but the wrong buttons were pressed so the data will have to be corrected "
+Sub-41,03-05-2023,10:10,"MT, AHH",Lundehusskolen,1,V,1,72,1,76,1,1,1,1,1,
+Sub-42,04-05-2023,08:30,"MT, AHH",Lundehusskolen,1,V,1,56,1,60,1,1,1,1,1,practice round not recorded for the EEG
+Sub-43,04-05-2023,10:05,"MT, AHH",Lundehusskolen,1,V,1,64,1,75,1,1,1,1,1,
+Sub-44,22-05-2023,08:38,"MT, AHH",Lundehusskolen,0,MV,0,,1,50,1,1,1,1,0,"EEG issue - only one half of the electrodes were recorded because the wrong configuration file was selected. The child had poor concentration, scratched his head a lot and did not pay attention to what responses he made to the task in many instances, he also made joke responses that were not part of the task, the task was not finished, it was stopped after block 4. Parents only completed one half of the DCD questionnaire"
+Sub-45,22-05-2023,10:05,"MT, AHH",Lundehusskolen,1,MV,1,61,1,65,1,1,1,1,0,"DCD incomplete, parents only answered some questions"
+Sub-46,23-05-2023,08:36,"MT, AHH",Lundehusskolen,1,V,1,82,1,88,1,1,1,1,1,
+Sub-47,23-05-2023,10:09,"MT, AHH",Lundehusskolen,1,MV,1,103,1,108,1,1,1,1,0,Parents did not fill in the DCDQ form
+Sub-48,24-05-2023,08:38,"MT, RAH",Lundehusskolen,1,MV,1,102,1,106,1,1,1,1,0,Parents did not fill in the DCDQ form
+Sub-49,30-05-2023,10:03,"MT, RAH",Lundehusskolen,1,V,1,67,1,75,1,1,1,1,1,The electrode offset was high and it was not possible to lower it further. A couple of electrodes went abov 30 - AF8 and AF7
