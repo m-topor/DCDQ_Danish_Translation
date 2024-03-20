@@ -1,0 +1,75 @@
+--------------------------------------------------------------------
+METADATA FOR participants.csv
+
+ID -            the ID of the participants
+
+Date -          the day when were the data recorded 
+
+Time -          the time when were the data recorded 
+
+Researcher -    the initials of the person who recorded the data 
+
+School -        code for the school that the children attended, anonymised with codes A & B
+
+Included -      1 = yes, 0 = no - whether the children were included in the other analyses for the main project
+
+Group -         MV = movement & vocal, M = movement, V = vocal, group allocation for the main analyses. This information was no used in the current analyses. 
+
+Data_comments - Any comments made by the researchers during or after data collection
+
+------------------------------------------------------------------
+METADATA FOR _DCDQ.csv (The DCDQ results)
+
+ID -            the ID of the participants
+
+Lang -          Questionnaire langugae 
+
+Q1-Q15 -        Item score on a scale of 1-5
+
+
+------------------------------------------------------------------
+METADATA FOR _Demo.csv (child's demographic information)
+
+ID -            the ID of the participants
+
+Group -         Whihch group was the child assigned to
+
+Task_Order -    In which order were the tasks completed P = the peg board task, F = the flamingo test, R = the reading test (the reading test was not included in the current analyses so no file is provided for that
+
+Sex -            F = female, M = male
+
+Age -            Age in years
+
+Multilingual -   1 = yes, 0 = no - does the child speak more than one language fluently
+
+Handedness -     R = right, L = left, both = both, which is the child's dominant hand
+
+Dev_cond -       1 = yes, 0 = no - does the child have any diagnoses of developmental conditions (e.g. ADHD)
+
+Comments -       free text box, researchers taking notes during or after data collection
+
+
+------------------------------------------------------------------
+METADATA FOR _Flam.csv (Flamingo test results)
+
+ID -            the ID of the participants
+
+R_Num -         The number of floor touches with the free leg (for the right leg)
+
+R_Time -        How long the child lasted before touching the floor with the free leg (for the right leg) in seconds
+
+Left_Num -      The number of floor touches with the free leg (for the left leg)
+
+Left_Time -     How long the child lasted before touching the floor with the free leg (for the left leg) in secods
+
+
+------------------------------------------------------------------
+METADATA FOR _Flam.csv (Flamingo test results)
+
+ID -            the ID of the participants
+
+R_Time -        How long did it take for the child to complete the task with their right hand in seconds
+
+L_Time -        How long did it take for the child to complete the task with their left hand in seconds
+
+
