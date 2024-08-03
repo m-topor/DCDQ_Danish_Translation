@@ -4,6 +4,7 @@
 library(tidyverse)
 library(correlation)
 library(psych)
+library(jmv)
 
 #Read in the data about participants
 participants <- read.csv("participants.csv")
@@ -122,7 +123,36 @@ participants$Peg_L_Time_LOG <- log(participants$Peg_L_Time + 1)
 
 participants$motor <- rowSums(participants[,23:24]) - rowSums(participants[,c(21:22, 25:26)]) 
 
+motor_desc <- jmv::descriptives(
+  data = participants,
+  vars = motor,
+  skew = TRUE,
+  kurt = TRUE
+)
+motor_desc <- motor_desc$descriptives$asDF
+motor_desc$`motor[skew]`/motor_desc$`motor[seSkew]` #skewness z-score
+motor_desc$`motor[kurt]`/motor_desc$`motor[seKurt]` #kurtosis z-score
+
 #------------For the Report
+
+#Check motor data
+mean(participants$Flam_R_Time)
+sd(participants$Flam_R_Time)
+mean(participants$Flam_L_Time)
+sd(participants$Flam_L_Time)
+mean(participants$Flam_R_Num)
+sd(participants$Flam_R_Num)
+mean(participants$Flam_L_Num)
+sd(participants$Flam_L_Num)
+
+mean(participants$Peg_R_Time)
+sd(participants$Peg_R_Time)
+mean(participants$Peg_L_Time)
+sd(participants$Peg_L_Time)
+
+mean(participants$motor)
+sd(participants$motor)
+
 
 #Check the DCDQ data 
 mean(participants$DCDQ)
@@ -130,6 +160,17 @@ sd(participants$DCDQ)
 min(participants$DCDQ)
 head(sort(participants$DCDQ))
 max(participants$DCDQ)
+
+DCDQ_desc <- jmv::descriptives(
+                  data = participants,
+                  vars = DCDQ,
+                  skew = TRUE,
+                  kurt = TRUE
+                  )
+DCDQ_desc <- DCDQ_desc$descriptives$asDF
+DCDQ_desc$`DCDQ[skew]`/DCDQ_desc$`DCDQ[seSkew]` #skewness z-score
+DCDQ_desc$`DCDQ[kurt]`/DCDQ_desc$`DCDQ[seKurt]` #kurtosis z-score
+
 
 #Proportion of children with DCDQ scores in the "probable DCD category"
 length(participants$ID[participants$DCDQ < 47])/length(participants$ID) * 100
@@ -188,7 +229,7 @@ ggplot(participants, aes(x=motor, y=DCDQ)) +
 
 
 plot(participants$motor, participants$DCDQ)
-cor.test(participants$motor, participants$DCDQ)
+cor.test(participants$motor, participants$DCDQ, method = "spearman", exact=FALSE)
 
 
 #SAVE
