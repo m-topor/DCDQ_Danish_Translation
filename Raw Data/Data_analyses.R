@@ -229,7 +229,7 @@ ggplot(participants, aes(x=motor, y=DCDQ)) +
 
 
 plot(participants$motor, participants$DCDQ)
-cor.test(participants$motor, participants$DCDQ, method = "spearman", exact=FALSE)
+cor.test(participants$motor, participants$DCDQ, method = "pearson", exact=FALSE, alternative = "greater")
 
 
 #SAVE
