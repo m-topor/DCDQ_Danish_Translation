@@ -220,11 +220,11 @@ item_dropped <- consistency$alpha.drop[,"raw_alpha"]
 #Plot and test DCDQ scores with motor perfomance
 
 ggplot(participants, aes(x=motor, y=DCDQ)) + 
-  geom_point(size=3) +
+  geom_point(size=2) +
   geom_smooth(method=lm, size = 1.5, color = "black") +
   theme_classic() + 
-  labs(x = "Motor Coordination Composite Score", y = "DCDQ Questionnaire") +
-  theme(axis.title = element_text(size = 20), axis.text = element_text(size = 20))   
+  labs(x = "Motor Performance Score", y = "DCDQ-DK Total") +
+  theme(axis.title = element_text(size = 18), axis.text = element_text(size = 18))   
 
 
 
