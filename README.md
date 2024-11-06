@@ -1,6 +1,8 @@
 # DCDQ_Danish_Translation
 
-#### The preprint associated with the data and analyses can be found here: https://osf.io/preprints/psyarxiv/pcmfv 
+#### This work has been published in a journal article: https://doi.org/10.1080/11038128.2024.2423698  
+
+Access the DCDQ-DK tool by clicking on the 'DCDQ-DK.pdf' file on the file list above.
 
 ## General information
 The current repository stores anonymised data and analysis code for the research project linked above. In the project, we translated and adapted the Developmental Coordination Disorder Questionnaire into Danish. We also did a validity and reliability check. The project is related to a larger research project, which is, at the time of writing, still ongoing. More information and preregistartion: https://osf.io/dpkwm/     
